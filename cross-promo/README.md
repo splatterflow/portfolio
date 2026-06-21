@@ -7,7 +7,7 @@ code changes, no resubmissions.**
 
 ## Hosting (GitHub raw — chosen)
 
-1. Put this folder in a **public** repo, e.g. `splatterflow/portfolio`.
+1. Put this folder in a **public** repo, e.g. `splatterflow/apps`.
 2. The live URL each app fetches is the raw URL of `manifest.json`:
    `https://raw.githubusercontent.com/<user>/<repo>/main/cross-promo/manifest.json`
 3. Set that exact URL in each app's `CrossPromo.swift` (`manifestURL`).
